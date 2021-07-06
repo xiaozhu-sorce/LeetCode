@@ -1,5 +1,6 @@
 public class VolatileTest {
     public static volatile int race = 0;
+
     public static synchronized void increase(){
         race++;
     }
