@@ -1,4 +1,6 @@
-public class T0042 {
+package Dynamicprogramming;
+
+public class T0042_TrppingRainWater {
         public int trap(int[] height) {
             int ans = 0;
             int size = height.length;

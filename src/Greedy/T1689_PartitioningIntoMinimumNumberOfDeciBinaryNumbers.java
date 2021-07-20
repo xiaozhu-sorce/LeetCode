@@ -1,6 +1,8 @@
+package Greedy;
+
 import java.util.Arrays;
 
-public class T1689 {
+public class T1689_PartitioningIntoMinimumNumberOfDeciBinaryNumbers {
     public int minPartitions(String n) {
         int[] a = new int[10];
         int s = 0,m;

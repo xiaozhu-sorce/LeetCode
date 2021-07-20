@@ -1,4 +1,6 @@
-public class T1863 {
+package BitManipulation;
+
+public class T1863_umofAllSubsetXORTotals {
     int res = 0;
 
     public int subsetXORSum(int[] nums) {

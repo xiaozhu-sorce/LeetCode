@@ -1,3 +1,5 @@
+package Tree;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,7 @@
  *     }
  * }
  */
-public class T0112 {
+public class T0112_PathSum {
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null) {
             return false;

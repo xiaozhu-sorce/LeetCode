@@ -1,4 +1,6 @@
-public class T1828 {
+package Array;
+
+public class T1828_QueriesOnNumberOfPointsInsideACircle {
     public int[] countPoints(int[][] points, int[][] queries) {
         int[] a=new int[queries.length];
         int tmp=0;

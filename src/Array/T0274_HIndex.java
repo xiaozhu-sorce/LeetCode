@@ -1,6 +1,8 @@
+package Array;
+
 import java.util.Arrays;
 
-public class T0274 {
+public class T0274_HIndex {
     public int hIndex(int[] citations) {
         Arrays.sort(citations);
         int h = 0, i = citations.length - 1;

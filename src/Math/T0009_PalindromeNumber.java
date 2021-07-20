@@ -1,4 +1,6 @@
-public class T0009 {
+package Math;
+
+public class T0009_PalindromeNumber {
     public boolean isPalindrome(int x) {
         int num = 0;
 

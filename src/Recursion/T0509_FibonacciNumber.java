@@ -1,4 +1,6 @@
-public class T0509 {
+package Recursion;
+
+public class T0509_FibonacciNumber {
     public static int fib(int n) {
         if (n == 0 || n == 1){
             return n;

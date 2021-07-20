@@ -1,4 +1,6 @@
-public class T1769 {
+package Array;
+
+public class T1769_MinimumNumberofOperationstoMoveAllBallstoEachBox {
     public int[] minOperations(String boxes) {
         
         int[] answer = new int[boxes.length()];

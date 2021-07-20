@@ -1,4 +1,6 @@
-public class T1006 {
+package Array;
+
+public class T1006_ClumsyFactorial {
     public int clumsy(int N) {
         if (N == 1) {
             return 1;

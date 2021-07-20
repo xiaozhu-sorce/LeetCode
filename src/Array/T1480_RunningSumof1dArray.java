@@ -1,4 +1,6 @@
-public class T1480 {
+package Array;
+
+public class T1480_RunningSumof1dArray {
     public int[] runningSum(int[] nums) {
         int[] num;
         int sum=0;
