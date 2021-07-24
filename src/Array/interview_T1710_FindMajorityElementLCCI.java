@@ -1,4 +1,6 @@
-public class T1710 {
+package Array;
+
+public class interview_T1710_FindMajorityElementLCCI {
     public int majorityElement(int[] nums) {
         for(int i = 0; i < nums.length; i++){
             int sum = 0;
