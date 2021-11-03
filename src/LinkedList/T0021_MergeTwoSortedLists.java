@@ -2,6 +2,13 @@ package LinkedList;
 
 public class T0021_MergeTwoSortedLists
 {
+    public class ListNode {
+        int val;
+        T0002_AddTwoNumbers.ListNode next;
+        ListNode() {}
+        ListNode(int val) { this.val = val; }
+        ListNode(int val, T0002_AddTwoNumbers.ListNode next) { this.val = val; this.next = next; }
+    }
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode pa,pb,rc;
         pa = l1;
