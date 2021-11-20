@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class T0141_LinkedListCycleII {
+public class T0142_LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
