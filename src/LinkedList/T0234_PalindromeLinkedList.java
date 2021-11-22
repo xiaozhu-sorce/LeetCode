@@ -1,7 +1,8 @@
 package LinkedList;
 
 public class T0234_PalindromeLinkedList {
-    public boolean isPalindrome(ListNode head) {
+    //反转链表。
+    public boolean isPalindrome1(ListNode head) {
         ListNode cur = head;
         ListNode newHead = new ListNode(0);
         ListNode node = newHead;
@@ -35,5 +36,22 @@ public class T0234_PalindromeLinkedList {
         head.next = null;
 
         return pre;
+    }
+
+
+    //递归
+    ListNode left;
+
+    public boolean isPalindrome2(ListNode head) {
+        left = head;
+        return traverse(head);
+    }
+
+    public boolean traverse(ListNode right){
+        if(right == null) return true;
+        boolean res = traverse(right.next);
+        res = res && left.val == right.val;
+        left = left.next;
+        return res;
     }
 }
