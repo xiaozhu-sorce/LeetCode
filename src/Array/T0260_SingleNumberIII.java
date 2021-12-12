@@ -1,5 +1,8 @@
 package Array;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class T0260_SingleNumberIII
 {
     public int[] singleNumber(int[] nums) {
