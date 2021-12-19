@@ -1,4 +1,4 @@
-package Tree;
+package Graph;
 
 public class T0785_IsGraphBipartite {
     private boolean ok = true;
