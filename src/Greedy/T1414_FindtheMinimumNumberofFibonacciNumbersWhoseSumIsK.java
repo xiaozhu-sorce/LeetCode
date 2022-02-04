@@ -1,8 +1,5 @@
 package Greedy;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class T1414_FindtheMinimumNumberofFibonacciNumbersWhoseSumIsK {
     public int findMinFibonacciNumbers(int k) {
         int a = 1, b = 1;
