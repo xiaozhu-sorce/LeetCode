@@ -1,6 +1,6 @@
-package String;
+package Contest.weekly_contest_278;
 
-public class T5994_FindSubstringWithGivenHashValue {
+public class C5994_FindSubstringWithGivenHashValue {
     public String subStrHash(String s, int power, int modulo, int k, int hashValue) {
         //超时。测试用例未通过
         for (int j = 0 ; j < s.length() - k ; j++){

@@ -1,9 +1,9 @@
-package Math;
+package Contest.weekly_contest_278;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class T5981_AllDivisionsWiththeHighestScoreofaBinaryArray {
+public class C5981_AllDivisionsWiththeHighestScoreofaBinaryArray {
     public List<Integer> maxScoreIndices(int[] nums) {
         LinkedList<Integer> list = new LinkedList<>();
         int len = nums.length;

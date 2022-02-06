@@ -1,8 +1,8 @@
-package Array;
+package Contest.weekly_contest_278;
 
 import java.util.Arrays;
 
-public class T5993_KeepMultiplyingFoundValuesbyTwo {
+public class C5993_KeepMultiplyingFoundValuesbyTwo {
     public int findFinalValue(int[] nums, int original) {
         int len = original;
         Arrays.sort(nums);
