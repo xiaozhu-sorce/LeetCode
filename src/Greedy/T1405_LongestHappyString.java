@@ -1,5 +1,7 @@
 package Greedy;
 
+import java.util.Arrays;
+
 public class T1405_LongestHappyString {
     public String longestDiverseString(int a, int b, int c) {
         int[][] arr = {{'a', a}, {'b', b}, {'c', c}};
