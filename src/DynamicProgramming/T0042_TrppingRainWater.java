@@ -1,4 +1,4 @@
-package Dynamicprogramming;
+package DynamicProgramming;
 
 public class T0042_TrppingRainWater {
         public int trap(int[] height) {
