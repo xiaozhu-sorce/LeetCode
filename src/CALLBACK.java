@@ -10,7 +10,8 @@ interface CallBack{
 }
 
 class Manager{
-    private Worker worker =new Worker();//或者public Manager（）{ worker = new Worker();}
+    private Worker worker =new Worker();
+    //或者public Manager（）{ worker = new Worker();}
     public void arrangework(){
         System.out.println("主管安排工作了");
         worker.onWork(new CallBack(){
