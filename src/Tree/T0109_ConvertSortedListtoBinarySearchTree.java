@@ -1,10 +1,7 @@
 package Tree;
 
 import LinkedList.ListNode;
-
 import java.util.ArrayList;
-import java.util.List;
-
 
 public class T0109_ConvertSortedListtoBinarySearchTree {
     public TreeNode sortedListToBST(ListNode head) {
