@@ -5,6 +5,7 @@ import java.util.ArrayDeque;
 public class T0385_MiniParser {
     int i = 0;
 
+    /*
     public NestedInteger deserialize(String s) {
         if (s.charAt(0) != '[')
             return new NestedInteger(Integer.parseInt(s));
@@ -68,5 +69,5 @@ public class T0385_MiniParser {
         }
         return stack.poll();
     }
-
+    */
 }
