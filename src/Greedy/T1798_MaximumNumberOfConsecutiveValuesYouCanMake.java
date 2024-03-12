@@ -51,4 +51,6 @@ public class T1798_MaximumNumberOfConsecutiveValuesYouCanMake {
         }
         return res;
     }
+
+
 }
