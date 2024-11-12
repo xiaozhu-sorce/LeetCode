@@ -1,5 +1,7 @@
 package Greedy;
 
+import java.util.Arrays;
+
 /**
  * @program: T0009_PalindromeNumber.java
  * @description:
@@ -9,25 +11,18 @@ package Greedy;
 public class T2864_MaximumOddBinaryNumber {
     public String maximumOddBinaryNumber(String s) {
         StringBuilder str = new StringBuilder();
-        char[] ch = new char[s.length()];
-        ch = s.toCharArray();
-        int count= 0;
-        int len  = s.length();
+        char[] ch = s.toCharArray();
+        int count = 0;
+        int len = s.length();
 
-        for (int i = 0; i < s.length();i++){
-            if (ch[i] == '1')   count++;
-        }
-        if (count == 1){
-            while (len-- > 1) {
-                str.append('0');
-            }
+        for (int i = 0; i < len; i++) if (ch[i] == '1') count++;
+        if (count == 1) {
+            while (len-- > 1) str.append('0');
             str.append('1');
-        }else{
+        } else {
             int le = len - count;
-            while(count-- > 1){
-                str.append('1');
-            }
-            while (le-- > 0 )   str.append('0');
+            while (count-- > 1) str.append('1');
+            while (le-- > 0) str.append('0');
             str.append('1');
         }
 

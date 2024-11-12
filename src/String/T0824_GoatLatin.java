@@ -4,7 +4,6 @@ public class T0824_GoatLatin {
     public String toGoatLatin(String sentence) {
         char[] chars = new char[]{'a', 'e', 'i', 'o', 'u'};
         StringBuilder sb = new StringBuilder();
-        int index = 0;
         boolean flag = false;
         StringBuilder numa = new StringBuilder();
         numa.append("a");
